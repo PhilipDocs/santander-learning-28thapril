@@ -1,0 +1,512 @@
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic)
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic)
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic&departure_time=1452149929000')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=optimistic&departure_time=1452149929000')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=optimistic&departure_time=1452149929000')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(xmlfile)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=optimistic&departure_time=1452149929000')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(xmlfile)
+}
+latlon2ft('12.626927,80.192711','13.129412,80.00176')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic&departure_time=1452149929000&key=AIzaSyBLklWB4Wxh_VDheBnio31lM6ce247RntU')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic&departure_time=1452149929000&key=AIzaSyBLklWB4Wxh_VDheBnio31lM6ce247RntU')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic&departure_time=1452149929000&key=AIzaSyBLklWB4Wxh_VDheBnio31lM6ce247RntU')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(drivetime)
+}
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic&departure_time=1452149929000&key=AIzaSyBLklWB4Wxh_VDheBnio31lM6ce247RntU')
+xmlfile <- xmlParse(getURL(xml.url))
+return(xmlfile)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('https://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic&departure_time=1452149929000&key=AIzaSyBLklWB4Wxh_VDheBnio31lM6ce247RntU')
+xmlfile <- xmlParse(getURL(xml.url))
+return(xmlfile)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('https://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic&departure_time=1452149929000&key=AIzaSyBLklWB4Wxh_VDheBnio31lM6ce247RntU')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(xmlfile)
+}
+latlon2ft('12.626927,80.192711','12.9671491,80.0833878')
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('https://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false&traffic_model=pessimistic&departure_time=1452149929000')
+xmlfile <- xmlParse(getURL(xml.url))
+dist111 <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+time <- as.numeric(sub(" min","",dist111))
+drivetime <- time/60 # FROM METER TO FEET
+return(xmlfile)
+}
+latlon2ft('12.626927,80.192711','12.9671491,80.0833878')
+install.pakages("knitr")
+install.packages("knitr")
+require(knitr)
+'''{r}
+x<-10
+y<-x*10
+'''
+x<-10
+y<-x*10
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false')
+xmlfile <- xmlParse(getURL(xml.url))
+dist <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+distance <- as.numeric(sub(" sec","",dist))
+time <- distance/60 # FROM METER TO FEET
+return(xmlfile)
+}
+latlon2ft('12.626927,80.192711','12.822082,80.240496')
+new<-read.csv('C:\\Users\\philipv\\Desktop\\latlon_0601.csv')
+new[42:46,]
+nrow(new)
+d1<-new[1:43,]
+d2<-new[44:62,]
+colnames(d1)
+nrow(d1)
+nrow(d2)
+d1[1:2,]
+nrow(d2)
+i=1
+j=1
+for(i in 1:43)
+{
+for(j in 1:19)
+{
+alat<-d1[i,3]
+along<-d1[i,4]
+blat<-d2[j,3]
+blong<-d2[j,4]
+alat<-as.numeric(alat)
+along<-as.numeric(along)
+blat<-as.numeric(blat)
+blong<-as.numeric(blong)
+out1<-paste(alat,",",along)
+out2<-paste(blat,",",blong)
+out3<-gsub(" ", "", out1, fixed = TRUE)
+out4<-gsub(" ", "", out2, fixed = TRUE)
+d1_p<-d1[i,1]
+d2_p<-d2[j,1]
+d1_p<-as.character(d1_p)
+d2_p<-as.character(d2_p)
+out<-latlon2ft(origin=out3,destination=out4)
+out<-out*1.4
+out5<-cbind(d1_p,d2_p,out)
+j=j+1
+h=paste("C:\\Users\\philipv\\Desktop\\outputs123_0602",".csv", sep="")
+write.table(out5, file=h, sep=",", append=TRUE,col.names=FALSE)
+}
+i=i+1
+}
+t1<-read.csv("C:\\Users\\philipv\\Desktop\\outputs123_0602.csv")
+driving time calculations
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false')
+xmlfile <- xmlParse(getURL(xml.url))
+dist <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+distance <- as.numeric(sub(" sec","",dist))
+time <- distance/60 # FROM METER TO FEET
+return(xmlfile)
+}
+latlon2ft <- function(origin,destination){
+library(XML)
+library(RCurl)
+latlon2ft <- function(origin,destination){
+xml.url <- paste0('http://maps.googleapis.com/maps/api/distancematrix/xml?origins=',origin,'&destinations=',destination,'&mode=driving&sensor=false')
+xmlfile <- xmlParse(getURL(xml.url))
+dist <- xmlValue(xmlChildren(xpathApply(xmlfile,"//duration")[[1]])$value)
+distance <- as.numeric(sub(" sec","",dist))
+time <- distance/60 # FROM METER TO FEET
+return(time)
+}
+new<-read.csv('C:\\Users\\philipv\\Desktop\\latlon.csv')
+new<-read.csv('C:\\Users\\philipv\\Desktop\\latlon.csv')
+new[42:46,]
+nrow(new)
+nrow(new)
+d1<-new[1:43,]
+d2<-new[44:62,]
+colnames(d1)
+nrow(d1)
+nrow(d2)
+d1[1:2,]
+nrow(d2)
+i=1
+j=1
+for(i in 1:43)
+{
+for(j in 1:19)
+{
+alat<-d1[i,3]
+along<-d1[i,4]
+blat<-d2[j,3]
+blong<-d2[j,4]
+alat<-as.numeric(alat)
+along<-as.numeric(along)
+blat<-as.numeric(blat)
+blong<-as.numeric(blong)
+out1<-paste(alat,",",along)
+out2<-paste(blat,",",blong)
+out3<-gsub(" ", "", out1, fixed = TRUE)
+out4<-gsub(" ", "", out2, fixed = TRUE)
+d1_p<-d1[i,1]
+d2_p<-d2[j,1]
+d1_p<-as.character(d1_p)
+d2_p<-as.character(d2_p)
+out<-latlon2ft(origin=out3,destination=out4)
+out<-out*1.4
+out5<-cbind(d1_p,d2_p,out)
+j=j+1
+h=paste("C:\\Users\\philipv\\Desktop\\outputs123_0602",".csv", sep="")
+write.table(out5, file=h, sep=",", append=TRUE,col.names=FALSE)
+}
+i=i+1
+}
+library(xgboost)
+library(Matrix)
+set.seed(12345)
+setwd("C:\\Local Disk\\Kaggle\\santander")
+train <- read.csv("./train.csv")
+test  <- read.csv("./test.csv")
+##### Removing IDs
+train$ID <- NULL
+test.id <- test$ID
+test$ID <- NULL
+##### Extracting TARGET
+train.y <- train$TARGET
+train$TARGET <- NULL
+AGE = test['var15']
+SMV5H2 = test['saldo_medio_var5_hace2']
+SV33 = test['saldo_var33']
+##### 0 count per line
+count0 <- function(x) {
+  return( sum(x == 0) )
+}
+train$n0 <- apply(train, 1, FUN=count0)
+test$n0 <- apply(test, 1, FUN=count0)
+##### Removing constant features
+cat("\n## Removing the constants features.\n")
+for (f in names(train)) {
+  if (length(unique(train[[f]])) == 1) {
+    cat(f, "is constant in train. We delete it.\n")
+    train[[f]] <- NULL
+    test[[f]] <- NULL
+  }
+}
+##### Removing identical features
+features_pair <- combn(names(train), 2, simplify = F)
+toRemove <- c()
+for(pair in features_pair) {
+  f1 <- pair[1]
+  f2 <- pair[2]
+  if (!(f1 %in% toRemove) & !(f2 %in% toRemove)) {
+    if (all(train[[f1]] == train[[f2]])) {
+      cat(f1, "and", f2, "are equals.\n")
+      toRemove <- c(toRemove, f2)
+    }
+  }
+}
+feature.names <- setdiff(names(train), toRemove)
+train$var38 <- log(train$var38)
+test$var38 <- log(test$var38)
+train <- train[, feature.names]
+test <- test[, feature.names]
+#---limit vars in test based on min and max vals of train
+print('Setting min-max lims on test data')
+for(f in colnames(train)){
+  lim <- min(train[,f])
+  test[test[,f]<lim,f] <- lim
+  lim <- max(train[,f])
+  test[test[,f]>lim,f] <- lim  
+}
+#---
+train$TARGET <- train.y
+train <- sparse.model.matrix(TARGET ~ ., data = train)
+dtrain <- xgb.DMatrix(data=train, label=train.y)
+watchlist <- list(train=dtrain)
+param <- list(  objective           = "binary:logistic", 
+                booster             = "gbtree",
+                eval_metric         = "auc",
+                eta                 = 0.02,
+                max_depth           = 5,
+                subsample           = 0.6815,
+                colsample_bytree    = 0.701
+)
+clf <- xgb.train(   params              = param, 
+                    data                = dtrain, 
+                    nrounds             = 570, 
+                    verbose             = TRUE,
+                    watchlist           = watchlist,
+                    maximize            = TRUE
+)
+GS_LogLoss = data.frame("Rounds" = numeric(), 
+                        "Depth" = numeric(),
+                        "r_sample" = numeric(),
+                        "c_sample" = numeric(), 
+                        "minLogLoss" = numeric(),
+                        "best_round" = numeric())
+for (rounds in seq(100, 1000, 50)){
+    for (depth in c(4, 6, 8, 10)) {
+    for (r_sample in c(0.5, 0.75, 1)) {
+    for (c_sample in c(0.4, 0.6, 0.8, 1)) {
+               set.seed(1024)
+               eta_val = 2 / rounds
+               cv.res = xgb.cv(data = dtrain, nfold = 3, label = y, 
+                               nrounds = rounds, 
+                               eta = eta_val, 
+                               max_depth = depth,
+                               subsample = r_sample, 
+                               colsample_bytree = c_sample,
+                               early.stop.round = 0.5*rounds,
+                               objective='binary:logistic', 
+                               eval_metric = 'auc',
+                               verbose = TRUE)
+               print(paste(rounds, depth, r_sample, c_sample, min(as.matrix(cv.res)[,3]) ))
+               GS_LogLoss[nrow(GS_LogLoss)+1, ] = c(rounds, 
+                                                    depth, 
+                                                    r_sample, 
+                                                    c_sample, 
+                                                    min(as.matrix(cv.res)[,3]), 
+                                                   which.min(as.matrix(cv.res)[,3]))
+             }
+          }
+      }
+    }
+colnames(dtrain)
+dim(dtrain)
+dtrain
+GS_LogLoss = data.frame("Rounds" = numeric(), 
+                        "Depth" = numeric(),
+                        "r_sample" = numeric(),
+                        "c_sample" = numeric(), 
+                        "minLogLoss" = numeric(),
+                        "best_round" = numeric())
+for (rounds in seq(100, 1000, 50)){
+    for (depth in c(4, 6, 8, 10)) {
+    for (r_sample in c(0.5, 0.75, 1)) {
+    for (c_sample in c(0.4, 0.6, 0.8, 1)) {
+               set.seed(1024)
+               eta_val = 2 / rounds
+               cv.res = xgb.cv(data = dtrain, nfold = 3, label = train.y, 
+                               nrounds = rounds, 
+                               eta = eta_val, 
+                               max_depth = depth,
+                               subsample = r_sample, 
+                               colsample_bytree = c_sample,
+                               early.stop.round = 0.5*rounds,
+                               objective='binary:logistic', 
+                               eval_metric = 'auc',
+                               verbose = TRUE)
+               print(paste(rounds, depth, r_sample, c_sample, min(as.matrix(cv.res)[,3]) ))
+               GS_LogLoss[nrow(GS_LogLoss)+1, ] = c(rounds, 
+                                                    depth, 
+                                                    r_sample, 
+                                                    c_sample, 
+                                                    min(as.matrix(cv.res)[,3]), 
+                                                   which.min(as.matrix(cv.res)[,3]))
+             }
+          }
+      }
+    }
+nrow(GS_LogLoss)
+write.csv(GS_LogLoss,'GS_LogLoss.csv')
+rm(GS_LogLoss)
+nrow(GS_LogLoss)
+GS_LogLoss = data.frame("Rounds" = numeric(), 
+                        "Depth" = numeric(),
+                        "r_sample" = numeric(),
+                        "c_sample" = numeric(), 
+                        "minLogLoss" = numeric(),
+                        "best_round" = numeric())
+for (rounds in seq(100, 1000, 50)){
+    for (depth in c(4, 6, 8, 10)) {
+    for (r_sample in c(0.5, 0.75, 1)) {
+    for (c_sample in c(0.4, 0.6, 0.8, 1)) {
+               set.seed(1024)
+               eta_val = 2 / rounds
+               cv.res = xgb.cv(data = dtrain, nfold = 3, label = train.y, 
+                               nrounds = rounds, 
+                               eta = eta_val, 
+                               max_depth = depth,
+                               subsample = r_sample, 
+                               colsample_bytree = c_sample,
+                               early.stop.round = 0.5*rounds,
+                               objective='binary:logistic', 
+                               eval_metric = 'auc',
+                               verbose = TRUE)
+               print(paste(rounds, depth, r_sample, c_sample, min(as.matrix(cv.res)[,3]) ))
+               GS_LogLoss[nrow(GS_LogLoss)+1, ] = c(rounds, 
+                                                    depth, 
+                                                    r_sample, 
+                                                    c_sample, 
+                                                    max(as.matrix(cv.res)[,3]), 
+                                                   which.max(as.matrix(cv.res)[,3]))
+             }
+          }
+      }
+    }
+nrow(GS_LogLoss)
+write.csv(GS_LogLoss,'GS_LogLoss.csv')
+param <- list(  objective           = "binary:logistic", 
+                booster             = "gbtree",
+                eval_metric         = "auc",
+                eta                 = 0.02,
+                max_depth           = 8,
+                subsample           = 0.75,
+                colsample_bytree    = 0.8
+)
+clf <- xgb.train(   params              = param, 
+                    data                = dtrain, 
+                    nrounds             = 100, 
+                    verbose             = TRUE,
+                    watchlist           = watchlist,
+                    maximize            = TRUE
+)
+test$TARGET <- -1
+test <- sparse.model.matrix(TARGET ~ ., data = test)
+preds <- predict(clf, test)
+submission <- data.frame(ID=test.id, TARGET=preds)
+cat("saving the submission file\n")
+write.csv(submission, "submission_2904_m2.csv", row.names = F)
+# Under 23 and over 97 year olds are always happy
+preds[AGE<23] = 0
+preds[AGE>97] = 0
+preds[SMV5H2>160000]=0
+preds[SV33>0]=0
+submission <- data.frame(ID=test.id, TARGET=preds)
+cat("saving the submission file\n")
+write.csv(submission, "submission_2904_m3.csv", row.names = F)
+savehistory(file='santander-28042016.txt')
